@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sascha Manns - Software- & Date Engineer</title>
+  <!-- Link our CSS stylesheet -->
+  <link rel="stylesheet" href="main.css">
+</head>
+<body>
+  <main>
+    <header>
+    <img src="i/avatar.png" alt="Sascha Manns" class="avatar">
+    <div class=""header-content>
+        <h1>Hi 🖐<br />My name is Sascha Manns</h1>
+        <div class="subtitle">
+          Software- & Data Engineer <span class="dot">•</span>
+          Infas Institut <span class="dot">•</span>
+          German Informatics Society <span class="dot">•</span>
+          Dotnet Foundation
+        </div>
+        <div class="contacts">
+            <a href="https://github.com/saigkill" target="_blank" rel="noopener noreferrer">
+              <span class="icon">
+                <img src="i/logo_github.svg" alt="GitHub" />
+              </span>
+              <span>GitHub</span>
+            </a>
+            <a href="https://profile.codersrank.io/user/saigkill" target="_blank" rel="noopener noreferrer">
+              <span class="icon">
+                <img src="i/logo_cr.svg" alt="CodersRank" />
+              </span>
+              <span>CodersRank</span>
+            </a>        
+            <a href="https://twitter.com/saigkill" target="_blank" rel="noopener noreferrer">
+              <span class="icon">
+                <img src="i/logo_twitter.svg" alt="Twitter" />
+              </span>
+              <span>Twitter</span>
+            </a>
+            <a href="https://www.facebook.com/sascha.manns" target="_blank" rel="noopener noreferrer">
+              <span class="icon">
+                <img src="i/logo_facebook.svg" alt="Facebook" />
+              </span>
+              <span>Facebook</span>
+            </a>
+          </div>
+    </div>    
+    </header>
+    <section>
+      <h2>My Coding Activity & Stats</h2>
+      <p class="branding">Powered by <a href="https://profile.codersrank.io/user/saigkill" target="_blank" rel="noopener noreferrer">CodersRank</a></p>
+      
+      <codersrank-summary 
+      username="saigkill"
+      class="widget"
+      show-avatar="false"
+      show-header="false"
+      min-width="420"
+      branding="false"></codersrank-summary>
+
+      <div class="widget activity-widget">
+        <codersrank-activity username="saigkill" legend="true" labels tooltip step="5" svg-width="1120" branding="false" ></codersrank-activity>
+      </div>
+      
+      <codersrank-skills-chart
+        class="widget"
+        username="saigkill"
+        legend="true"
+        labels
+        tooltip
+        svg-width="1120"
+        svg-height="400"></codersrank-skills-chart>
+    </section>
+    <section>
+      <h2>Recent Projects</h2>
+      <p>I am a very passionate about building desktop applications, API and Database stuff.</p>
+      
+      <codersrank-portfolio
+        class="widget"
+        username="saigkill"
+        grid
+        company="false"
+        branding="false"></codersrank-portfolio>
+    </section>
+    <section>
+      <h2>Work Experience & Education</h2>
+      
+      <codersrank-work-experience
+        class="widget"
+        username="saigkill"
+        logos
+        branding="false"
+        ></codersrank-work-experience>
+        
+        <codersrank-education
+            username="saigkill"
+            class="widget"
+            branding="false"
+            ></codersrank-education>
+    </section>
+
+    <footer>
+        Copyright © 2000 - 2024 Sascha Manns
+    </footer>
+  </main>
+  <script src="https://unpkg.com/@codersrank/summary/codersrank-summary.min.js"></script>
+  <script src="https://unpkg.com/@codersrank/activity/codersrank-activity.min.js"></script> 
+  <script src="https://unpkg.com/@codersrank/skills-chart/codersrank-skills-chart.min.js"></script>
+  <script src="https://unpkg.com/@codersrank/portfolio/codersrank-portfolio.min.js"></script>
+  <script src="https://unpkg.com/@codersrank/work-experience/codersrank-work-experience.min.js"></script>
+  <script src="https://unpkg.com/@codersrank/education/codersrank-education.min.js"></script>
+</body>
+</html>
